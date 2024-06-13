@@ -1,0 +1,98 @@
+/*
+	COLOUR PALETTE
+
+	White        #fff;
+	Red          #c54b3c
+    Navy         #393b47;
+	Off-Black    #2b2e37;
+*/
+body {
+    font-family: 'Assistant', sans-serif;
+    margin: 0;
+    background-color:  #2b2e37;
+    
+}
+
+header {
+    background-color: #c54b3c;
+    padding: 1em;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main h2 {
+    margin-top: 1em;
+    color: white;
+    
+}
+
+.wide-flex {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.flex-container {
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+    width: 100%;
+    max-width: 300px;
+}
+
+
+aside {
+    margin-top: 2em;
+    background-color:  #393b47;
+    padding: 1em;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+
+    
+
+
+
+/* Mobile View */
+
+@media (max-width: 150px) {
+    section img {
+        width: 150px;
+        height: 120px;
+    }
+}
+
+
+
+
+
+/* Medium View */
+@media (max-width: 768px) {
+    section img {
+        width: 370px;
+        height: 300px;
+    }
+}
+
+
+
+/* Largest View */
+@media (min-width: 769px) {
+    section img{
+        width: 500px;
+        height: 400px;
+    }
+}
